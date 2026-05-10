@@ -14,3 +14,10 @@ spring:
 
 app:
   welcome: "Chao mung toi BV RikkeiAcademy"
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    fetch-registry: true
+    register-with-eureka: true
