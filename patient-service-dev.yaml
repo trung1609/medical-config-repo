@@ -6,8 +6,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/patient_db
     username: postgres
-    password: {cipher}34abb8990083d67c9c898fb99a4f5fc323e0b8d408b29c55dfbef9439ebb60cf
-  jpa:
+    password: '{cipher}34abb8990083d67c9c898fb99a4f5fc323e0b8d408b29c55dfbef9439ebb60cf'
     hibernate:
       ddl-auto: update
     show-sql: true
