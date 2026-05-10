@@ -1,0 +1,19 @@
+message: "Chao mung den voi Patient Service tu Config Server"
+
+spring:
+  application:
+    name: patient-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/patient_db
+    username: postgres
+    password: {cipher}34abb8990083d67c9c898fb99a4f5fc323e0b8d408b29c55dfbef9439ebb60cf
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+app:
+  welcome: "Chao mung toi BV RikkeiAcademy"
+
+server:
+  port: 8081
