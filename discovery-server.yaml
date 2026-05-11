@@ -1,6 +1,6 @@
 spring:
   application:
-    name: medical-discovery-server
+    name: discovery-server
 
 server:
   port: 8761
